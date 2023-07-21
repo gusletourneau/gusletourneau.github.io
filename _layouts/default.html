@@ -20,6 +20,41 @@
 
   <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}"></script>
+  <style>
+    /* Step 1: Set html and body height to 100% */
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Step 2: Use Flexbox to make body expand to full height */
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Step 3: Add a wrapper for the main content */
+    .content-wrapper {
+      flex: 1; /* This will make it occupy the available space */
+      max-width: 1000px; /* Optional: Set a maximum width for the content */
+      margin: 0 auto; /* Optional: Center the content horizontally */
+      padding: 20px; /* Optional: Add some padding to the content */
+    }
+
+    /* Optional: Customize other styles for your website */
+    header {
+      background-color: #f0f0f0;
+      padding: 10px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #f0f0f0;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
 </head>
 
 <body>
