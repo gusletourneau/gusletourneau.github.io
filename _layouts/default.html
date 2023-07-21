@@ -22,7 +22,7 @@
   <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}"></script>
 </head>
 
-<body id="layoutt">
+<body>
   <div id="preloader">
     <div class="load">
       <hr />
@@ -32,7 +32,7 @@
     </div>
   </div>
   {% include landing-page.html %}
-  <div class="layout">
+  <div class="layout" id="layout">
     {%if site.show_aboutme_card %}
       <section class="card neumorphism-card-big">
         {% include section-aboutme.html %}
