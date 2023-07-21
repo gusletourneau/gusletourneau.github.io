@@ -6,31 +6,29 @@
 #   weight: 5
 
 - name: Git
-  weight: 5
+  weight: 4
 
-- name: Bash
-  weight: 3
-
-- name: Scrum
-  weight: 3
-
-- name: Travis CI
+- name: OpenCV
   weight: 1
 
-- name: Jenkins
-  weight: 1
+- name: JUnit
+  weight: 2
 
-- name: Chrome DevTools
+- name: NumPy
+  weight: 3
+
+- name: TensorFlow
   weight: 2
 
 - name: npm
   weight: 2
 
-- name: gulp
-  weight: 4
+- name: PyTorch
+  weight: 1
 
-- name: VS Code
-  weight: 3
+- name: MatPlotLib
+  weight: 2
 
-- name: Postman
-  weight: 4
+- name: SKlearn
+  weight: 2
+  
