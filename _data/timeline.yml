@@ -17,25 +17,25 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
+- title: CI&T
+  title-url: https://ciandt.com/us/about-us
+  date: May 2023 - Aug 2023
+  subtitle: ALL Intern: Fullstack Developer
   tags:
     - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
+    - tag: Typescript
+    - tag: Package Managment
+    - tag: Documentation
   timeline-side: right
 
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
+- title: Google Research Code Competition
+  title-url: https://www.kaggle.com/competitions/asl-fingerspelling
+  date: Summer 2023
+  subtitle: American Sign Language Fingerspelling Recognition via Kaggle
   tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
+    - tag: Deep Learning
+    - tag: Computer Vision
+    - tag: Kaggle
   timeline-side: right
 
 - title: Super University
