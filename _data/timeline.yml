@@ -44,12 +44,12 @@
   subtitle: Product Development Software Intern
   tags:
     - tag: Python
-    - tag: Java/Spring
+    - tag: Java
     - tag: SQL
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
+- title: Brown University
+  title-url: https://www.brown.edu/
+  date: 2020 - 2024
+  subtitle: Sc.B Applied Math "-" Computer Science
   timeline-side: left
