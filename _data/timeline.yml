@@ -38,20 +38,14 @@
     - tag: Kaggle
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
-  timeline-side: left
-
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
+- title: Ford Motor Company
+  title-url: https://corporate.ford.com/careers/programs/students-and-recent-graduates/ford-summer-internship-program.html
+  date: May 2022 - Aug 2022
+  subtitle: Product Development Software Intern
   tags:
-    - tag: React
-    - tag: Node
-    - tag: Javascript
+    - tag: Python
+    - tag: Java/Spring
+    - tag: SQL
   timeline-side: right
 
 - title: Super University
