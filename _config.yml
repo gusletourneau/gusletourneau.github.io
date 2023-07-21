@@ -40,7 +40,7 @@ about_me_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, s
 # show_skills_card:
 # > setting this to true, will display the Skills section
 # > setting this to false, will omit the Skills section
-show_skills_card: false
+show_skills_card: true
 # about_me_title: The will be displayed as the title in the Skills section
 skills_title: Skills
 
@@ -77,7 +77,7 @@ os_projects_title: Open Source Projects
 # show_contact_card:
 # > setting this to true, will display the Contact section
 # > setting this to false, will omit the Contact section
-show_contact_card: false
+show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.
@@ -110,7 +110,7 @@ projects:
 # Set the id, if you want to track your website with Google Analytics
 # > set this to "", if you do not want to track with Google Analytics
 google-analytics:
-  id: "UA-158757509-2"
+  id: ""
 
 ### END OF VALUES YOU SHOULD CHANGE ###
 
