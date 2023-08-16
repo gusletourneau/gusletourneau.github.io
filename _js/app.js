@@ -1,14 +1,11 @@
 setTimeout(function() {
   fadeOutPreloader(document.getElementById('preloader'), 69);
-  window.scrollTo(0, 0);
 }, 1500);
 
 $(document).ready(function() {
   $(window).on('beforeunload', function() {
     window.scrollTo(0, 0);
   });
-
-  window.scrollTo(0, 0);
 
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
   particlesJS.load('landing', 'assets/particles.json', function() {});
