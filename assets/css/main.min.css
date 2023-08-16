@@ -193,7 +193,7 @@ a:hover {
     left: 0;
     position: absolute;
     right: 0;
-    bottom: 40%;
+    bottom: 36%;
 }
 
 .landing-icons {
@@ -807,7 +807,7 @@ a:hover {
 
 
 :root {
-    --arrow-height: 150px;
+    --arrow-height: 115px;
     --arrow-width: calc(var(--arrow-height) * 5 / 6);
     --dot-size: calc(var(--arrow-height) / 6);
 }
