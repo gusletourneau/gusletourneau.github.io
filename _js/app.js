@@ -7,6 +7,10 @@ $(document).ready(function() {
     window.scrollTo(0, 0);
   });
 
+$(window).unload(function() {
+    $('body').scrollTop(0);
+});
+
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
   particlesJS.load('landing', 'assets/particles.json', function() {});
 
