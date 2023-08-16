@@ -333,11 +333,56 @@ a {
     }
   }
 
-  img.down-arrow {
+  @keyframes outWaveIn {
+    to {
+      stroke-dasharray: 510;
+      stroke-width: 0.5rem;
+    }
+  }
+
+  @keyframes outWaveOut {
+    from {
+      stroke: $text-color;
+      stroke-dasharray: 510;
+      stroke-width: 0.5rem;
+    }
+    to {
+      stroke: $text-color;
+      stroke-dasharray: 83;
+      stroke-width: 0.5rem;
+    }
+  }
+
+  @keyframes colorBlackIcon {
+    to {
+      stroke: #000;
+    }
+  }
+
+  @keyframes colorEmail {
+    to {
+      stroke: #b23121;
+    }
+  }
+
+  @keyframes colorLinkedin {
+    to {
+      stroke: #007bb6;
+    }
+  }
+
+  @keyframes colorTwitter {
+    to {
+      stroke: #1da1f2;
+    }
+  }
+}
+
+.down-arrow {
     filter: invert(100%) sepia(1%) saturate(28%) hue-rotate(154deg) brightness(104%) contrast(100%);
 }
 
-  .downArrow{
+.downArrow{
 	position: fixed;
 	bottom: 45%;
 	left: 50%;
@@ -396,50 +441,6 @@ a {
   }
 }
 
-  @keyframes outWaveIn {
-    to {
-      stroke-dasharray: 510;
-      stroke-width: 0.5rem;
-    }
-  }
-
-  @keyframes outWaveOut {
-    from {
-      stroke: $text-color;
-      stroke-dasharray: 510;
-      stroke-width: 0.5rem;
-    }
-    to {
-      stroke: $text-color;
-      stroke-dasharray: 83;
-      stroke-width: 0.5rem;
-    }
-  }
-
-  @keyframes colorBlackIcon {
-    to {
-      stroke: #000;
-    }
-  }
-
-  @keyframes colorEmail {
-    to {
-      stroke: #b23121;
-    }
-  }
-
-  @keyframes colorLinkedin {
-    to {
-      stroke: #007bb6;
-    }
-  }
-
-  @keyframes colorTwitter {
-    to {
-      stroke: #1da1f2;
-    }
-  }
-}
 
 /* Skills Section */
 
