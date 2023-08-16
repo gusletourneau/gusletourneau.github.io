@@ -193,7 +193,7 @@ a:hover {
     left: 0;
     position: absolute;
     right: 0;
-    top: 40%;
+    bottom: 40%;
 }
 
 .landing-icons {
@@ -949,5 +949,5 @@ a:hover {
     left: 0;
     position: absolute;
     right: 0;
-    top: 90%;
+    top: 85%;
 }
