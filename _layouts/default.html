@@ -17,9 +17,6 @@
   <link rel="stylesheet" href="{{ "/assets/css/main.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/assets/css/vendors.min.css" | prepend: site.baseurl }}">
 
-  <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}"></script>
-
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7HHGKRBJKY"></script>
 <script>
@@ -70,5 +67,8 @@
     {% endif %}
   </div>
   {% include footer.html %}
+
+  <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}"></script>
 </body>
 </html>
