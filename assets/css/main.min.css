@@ -806,12 +806,6 @@ a:hover {
 @use postcss-cssnext;
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 :root {
     --arrow-height: 150px;
     --arrow-width: calc(var(--arrow-height) * 5 / 6);
