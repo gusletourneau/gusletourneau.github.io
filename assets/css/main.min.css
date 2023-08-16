@@ -843,7 +843,8 @@ a:hover {
             display: block;
             height: 60%;
             width: 60%;
-            background: #a60f0f;
+            background: #ff073a;
+            opacity: 85%;
         }
             
         &.-center {
