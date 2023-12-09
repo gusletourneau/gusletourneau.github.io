@@ -17,6 +17,16 @@
 #     - tag: Rails
 #   timeline-side: right
 
+- title: Sift
+  title-url: https://www.letsift.com/
+  date: Sept. 2023 - Present
+  subtitle: Frontend Engineer
+  tags:
+    - tag: React
+    - tag: Typescript
+    - tag: UI/UX
+  timeline-side: left
+
 - title: CI&T
   title-url: https://ciandt.com/us/about-us
   date: May 2023 - Aug 2023
